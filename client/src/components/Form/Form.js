@@ -31,7 +31,7 @@ const Form = () => {
         <Paper className={classes.paper}>
             <form autoComplete="off" noValidate className={`${classes.form} ${classes.form}`} onSubmit={handleSubmit}>
                 <Typography className={classes.title} variant="h6">
-                    Creating a Memory
+                    Creating a new post
             </Typography>
                 <TextField
                     className={classes.input}

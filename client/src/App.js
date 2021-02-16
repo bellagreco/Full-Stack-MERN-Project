@@ -16,8 +16,19 @@ const App = () => {
     return (
         <Container maxwidth="lg">
             <AppBar className={classes.appBar} position="static" color="inherit">
-                {/* <Typography className={classes.heading} variant="h2" align="center">Memories</Typography> */}
                 <img className={classes.image} src={Memories} alt="Memories" height="150" justify="center" />
+
+                <Grid spacing={1}>
+                    <Grid item xs={12} spacing={3}>
+                        <Typography className={classes.heading} variant="h2" align="center">Gamenator</Typography>
+
+                    </Grid>
+                    <Grid item xs={12} spacing={3}>
+                        <Typography className={classes.heading} variant="h6" align="center">Everything about videogames</Typography>
+
+                    </Grid>
+                </Grid>
+
             </AppBar>
             <Grow in>
                 <Container>
