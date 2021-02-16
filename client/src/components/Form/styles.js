@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
+import { blue } from '@material-ui/core/colors';
 
 export default makeStyles((theme) => ({
   root: {
@@ -17,8 +18,16 @@ export default makeStyles((theme) => ({
   fileInput: {
     width: '97%',
     margin: '10px 0',
+    marginBottom: 25
   },
   buttonSubmit: {
     marginBottom: 10,
+  },
+  input: {
+    marginBottom: 15,
+  },
+
+  title: {
+    marginBottom: 30
   },
 }));
